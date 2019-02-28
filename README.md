@@ -1,8 +1,10 @@
 # CS420Midterm
 
+Build a web based bug reporting system. This system will be used by a software development
+company in the software quality assurance process.
+
  Part 1
- - [] Build a web based bug reporting system. This system will be used by a software development
-company in the software quality assurance process. Download the SQLServer Express database (zip file) from Canvas. This database contains user information and bug information.
+ - [x] Download the SQLServer Express database (zip file) from Canvas. This database contains user information and bug information.
 
 [] Part 2
 - There are 4 types of users: Tester, Manager, Developer, and Administrator. 
@@ -19,7 +21,7 @@ company in the software quality assurance process. Download the SQLServer Expres
    - [] Status is set to Completed when a Developer fixes a bug
 
 Part 3
-- [] The users will be presented with a login screen.
+- [x] The users will be presented with a login screen.
  - [x] Create login screen
 - [] If a user is authenticated, the browser loads one of the four corresponding web pages depending on the user type. 
   User passwords are stored as SHA-1 hash values. Currently, the password for all users is set to ballstate0. You may use http://www.miraclesalad.com/webtools/sha1.php to generate and store passwords for users. 
