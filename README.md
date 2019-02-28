@@ -6,17 +6,17 @@ company in the software quality assurance process. Download the SQLServer Expres
 
 - [] Part 2
 - [] There are 4 types of users: Tester, Manager, Developer, and Administrator. 
-  [x] Create webform for Developer, Tester, Manager, and Administrator.
-  [] Testers enter new bugs into the database.
-  [] Managers assign newly reported bugs to Developers. 
-  [] Developers fix the bugs that were assigned to them. Administrators are allowed to create new users.
-  []The EnteredBy field will contain the UserID of the Tester who entered the bug. 
-  [] The AssignedTo field will contain the UserID of the Developer who is assigned by the Manager to fix this bug. 
-  []The Priority can be High or Medium or Low in a drop down menu. 
-  []Status function 
-    []Stauts is set to Open when a new bug is entered 
-    []Status is set to Assigned when a Manager assigns a bug to a Developer
-    [] Status is set to Completed when a Developer fixes a bug
+ - [x] Create webform for Developer, Tester, Manager, and Administrator.
+ - [] Testers enter new bugs into the database.
+ - [] Managers assign newly reported bugs to Developers. 
+ - [] Developers fix the bugs that were assigned to them. Administrators are allowed to create new users.
+ - []The EnteredBy field will contain the UserID of the Tester who entered the bug. 
+ - [] The AssignedTo field will contain the UserID of the Developer who is assigned by the Manager to fix this bug. 
+ - []The Priority can be High or Medium or Low in a drop down menu. 
+ - []Status function 
+   - []Stauts is set to Open when a new bug is entered 
+   - []Status is set to Assigned when a Manager assigns a bug to a Developer
+   - [] Status is set to Completed when a Developer fixes a bug
 
 [] Part 3
 [] The users will be presented with a login screen.
