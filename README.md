@@ -1,6 +1,6 @@
 # CS420Midterm
 
-[] Part 1
+-[] Part 1
 [] Build a web based bug reporting system. This system will be used by a software development
 company in the software quality assurance process. Download the SQLServer Express database (zip file) from Canvas. This database contains user information and bug information.
 
