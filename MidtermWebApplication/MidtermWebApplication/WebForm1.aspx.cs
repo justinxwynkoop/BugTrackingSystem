@@ -42,7 +42,7 @@ namespace MidtermWebApplication
                     string type = rdr["Type"].ToString();
                     Session["userid"] = rdr["UserID"].ToString();
                     // Timesout after 10 mins
-                    Session.Timeout = 10;
+                    //Session.Timeout = 10;
                     if (type.Equals("Tester"))
                     {
                         Response.Redirect("Tester.aspx");
