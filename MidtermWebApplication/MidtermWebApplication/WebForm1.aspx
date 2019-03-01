@@ -10,10 +10,10 @@
     <form id="form1" runat="server">
         <div>
             Username:
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="tbxUserName" runat="server"></asp:TextBox>
             <br />
             Password:&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="tbxPassword" runat="server" TextMode="Password"></asp:TextBox>
             <br />
             <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
