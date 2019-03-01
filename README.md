@@ -6,12 +6,13 @@ company in the software quality assurance process.
  Part 1
  - [x] Download the SQLServer Express database (zip file) from Canvas. This database contains user information and bug information.
 
-[] Part 2
+  Part 2
 - There are 4 types of users: Tester, Manager, Developer, and Administrator. 
  - [x] Create webform for Developer, Tester, Manager, and Administrator.
  - [] Testers enter new bugs into the database.
  - [] Managers assign newly reported bugs to Developers. 
- - [] Developers fix the bugs that were assigned to them. Administrators are allowed to create new users.
+ - [] Developers fix the bugs that were assigned to them. 
+ - []Administrators are allowed to create new users.
  - []The EnteredBy field will contain the UserID of the Tester who entered the bug. 
  - [] The AssignedTo field will contain the UserID of the Developer who is assigned by the Manager to fix this bug. 
  - []The Priority can be High or Medium or Low in a drop down menu. 
