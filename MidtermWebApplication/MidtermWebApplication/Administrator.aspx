@@ -29,7 +29,7 @@
             <br />
             <br />
             <asp:Label ID="lblUniqePassword" runat="server" Text="Unique Password: " Font-Bold="True"></asp:Label>
-            <asp:TextBox ID="tbxUniquePassword" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            <asp:TextBox ID="tbxUniquePassword" runat="server"></asp:TextBox>
 &nbsp;(Can be changed at a later time by employee)<br />
             *Must be at least 8 characters long<br />
             *Must contain at least one letter<br />

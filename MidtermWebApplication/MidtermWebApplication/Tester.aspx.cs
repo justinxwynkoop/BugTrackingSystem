@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -20,12 +20,14 @@ namespace MidtermWebApplication
         protected void btnSubmitBug_Click(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Week8CS"].ConnectionString);
-            string qry = "insert into Bugs (subject, priority, description)";
+            string qry = "INSERT INTO Bugs (subject, priority, description)";
             SqlCommand cmd = new SqlCommand(qry, conn);
             conn.Open();
-            cmd.Parameters.AddWithValue("@subject", tbxBugSubject);
-            cmd.Parameters.AddWithValue("@priority", ddlBugPriority);
-            cmd.Parameters.AddWithValue("@description", tbxBugDiscription);
+            
+            cmd.Parameters.AddWithValue("subject", tbxBugSubject);
+            cmd.Parameters.AddWithValue("priority", ddlBugPriority);
+            cmd.Parameters.AddWithValue("description", tbxBugDiscription);
+
 
             conn.Close();
 

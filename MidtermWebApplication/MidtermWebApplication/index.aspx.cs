@@ -23,13 +23,13 @@ namespace MidtermWebApplication
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Week8CS"].ConnectionString);
             string qry = "select UserID, Password, Type from Users where Login=@1";
             SqlCommand cmd = new SqlCommand(qry, conn);
-            cmd.Parameters.AddWithValue("@1", "kjohnso");
+            cmd.Parameters.AddWithValue("@1", tbxUserName.Text.ToString());
             conn.Open();
             SqlDataReader rdr = cmd.ExecuteReader();
             if (rdr.HasRows)
             {
                 SHA1 sha1 = new SHA1CryptoServiceProvider();
-                sha1.ComputeHash(ASCIIEncoding.ASCII.GetBytes("Ballstate0"));
+                sha1.ComputeHash(ASCIIEncoding.ASCII.GetBytes(tbxPassword.Text.ToString()));
                 byte[] result = sha1.Hash;
                 StringBuilder strBuilder = new StringBuilder();
                 for (int i = 0; i < result.Length; i++)
@@ -63,7 +63,7 @@ namespace MidtermWebApplication
                 }
                 else
                 {
-                    Response.Redirect("https://www.bsu.edu");
+                    //Response.Redirect("https://www.bsu.edu");
                 }
             }
             else

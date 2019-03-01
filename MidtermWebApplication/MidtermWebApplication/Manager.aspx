@@ -12,7 +12,7 @@
             <asp:Label ID="lblListofBugs" runat="server" Text="List of Bugs"></asp:Label>
             <br />
             <br />
-            <asp:DropDownList ID="ddlListofBugs" runat="server" OnSelectedIndexChanged="ddlListofBugs_SelectedIndexChanged">
+            <asp:DropDownList ID="ddlListofBugs" runat="server">
             </asp:DropDownList>
             <br />
             <br />

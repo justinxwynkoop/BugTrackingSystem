@@ -75,8 +75,10 @@
     <Content Include="Developer.aspx" />
     <Content Include="Manager.aspx" />
     <Content Include="Tester.aspx" />
-    <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="index.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administrator.aspx.cs">
@@ -108,12 +110,12 @@
     <Compile Include="Tester.aspx.designer.cs">
       <DependentUpon>Tester.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
