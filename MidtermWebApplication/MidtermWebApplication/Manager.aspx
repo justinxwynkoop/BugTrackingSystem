@@ -9,20 +9,32 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblListofBugs" runat="server" Text="List of Bugs"></asp:Label>
+            <asp:Label ID="lblBugsToBeFixed" runat="server" Text="New Bugs To Be Fixed: "></asp:Label>
+
+            &nbsp;&nbsp;&nbsp;
+            
+            <asp:DropDownList ID="ddlNewBugs" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlNewBugs_SelectedIndexChanged"></asp:DropDownList>
+            
             <br />
             <br />
-            <asp:DropDownList ID="ddlListofBugs" runat="server">
-            </asp:DropDownList>
+            
             <br />
+            
+            <asp:Label ID="lblListOfDevelopers" runat="server" Text="Assign To A Developer: "></asp:Label>
+            
+            &nbsp;&nbsp;&nbsp;
+            
+            <asp:DropDownList ID="ddlListOfDevelopers" runat="server"></asp:DropDownList>
+            
+            <br /><br />
+            
+            <asp:GridView ID="gvBugInfo" runat="server"></asp:GridView>
+            
             <br />
-            <asp:Label ID="lblAssignBug" runat="server" Text="Assign Bug to Developer"></asp:Label>
-            <br />
-            <asp:DropDownList ID="ddlListofDevelopers" runat="server">
-            </asp:DropDownList>
-            <br />
-            <br />
-            <asp:Button ID="btnSubmitAssignment" runat="server" Text="Submit Assignment" OnClick="btnSubmitAssignment_Click" />
+
+            <asp:Button ID="btnAssign" runat="server" Text="Assign to Developer" OnClick="btnAssign_Click" />
+            <br /><br />
+            <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
         </div>
     </form>
 </body>

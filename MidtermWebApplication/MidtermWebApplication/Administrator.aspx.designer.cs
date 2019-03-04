@@ -22,85 +22,76 @@ namespace MidtermWebApplication {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lblCreateNewUser control.
+        /// lblNewUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCreateNewUser;
+        protected global::System.Web.UI.WebControls.Label lblNewUsername;
         
         /// <summary>
-        /// lblFirstName control.
+        /// tbxNewUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFirstName;
+        protected global::System.Web.UI.WebControls.TextBox tbxNewUsername;
         
         /// <summary>
-        /// tbxFirstNameNewUser control.
+        /// lblEmployeeType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxFirstNameNewUser;
+        protected global::System.Web.UI.WebControls.Label lblEmployeeType;
         
         /// <summary>
-        /// lblLastName control.
+        /// ddlEmployeeType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLastName;
+        protected global::System.Web.UI.WebControls.DropDownList ddlEmployeeType;
         
         /// <summary>
-        /// txtlastNameNewUser control.
+        /// lblNewUserLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtlastNameNewUser;
+        protected global::System.Web.UI.WebControls.Label lblNewUserLogin;
         
         /// <summary>
-        /// lblJobTitle control.
+        /// tbxNewUserLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblJobTitle;
+        protected global::System.Web.UI.WebControls.TextBox tbxNewUserLogin;
         
         /// <summary>
-        /// ddlJobTitle control.
+        /// lblNewUserPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlJobTitle;
+        protected global::System.Web.UI.WebControls.Label lblNewUserPassword;
         
         /// <summary>
-        /// lblUniqePassword control.
+        /// tbxNewUserPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblUniqePassword;
-        
-        /// <summary>
-        /// tbxUniquePassword control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxUniquePassword;
+        protected global::System.Web.UI.WebControls.TextBox tbxNewUserPassword;
         
         /// <summary>
         /// btnCreateUser control.
@@ -110,5 +101,14 @@ namespace MidtermWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnCreateUser;
+        
+        /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogout;
     }
 }

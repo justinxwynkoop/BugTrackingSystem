@@ -9,27 +9,26 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lblNewBug" runat="server" Text="Report A New Bug"></asp:Label>
+            <asp:Label ID="lblSubjectOfBug" runat="server" Text="Subject: "></asp:Label>
+                
+        &nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="tbxSubjectOfBug" runat="server"></asp:TextBox>
+                <br /><br />
+            <asp:Label ID="lblPriorityOfBug" runat="server" Text="Priority Of Bug: "></asp:Label>
+            &nbsp;&nbsp;&nbsp;
+            <asp:DropDownList ID="ddlPriorityOfBug" runat="server"></asp:DropDownList>
+            <br /><br />
+            <asp:Label ID="lblDescriptionOfBug" runat="server" Text="Description Of Bug: "></asp:Label>
+
+        &nbsp;&nbsp;&nbsp;
+            <asp:TextBox ID="tbxDescriptionOfBug" runat="server" TextMode="MultiLine" Height="100px" Width="250px"></asp:TextBox>
+        &nbsp;&nbsp;<br />
             <br />
-            <br />
-            <asp:Label ID="lblBugSubject" runat="server" Text="Subject : "></asp:Label>
-            <asp:TextBox ID="tbxBugSubject" runat="server" Width="134px"></asp:TextBox>
-            <br />
-            <br />
-            <asp:Label ID="lblBugPriorityLevel" runat="server" Text="Priority Level: "></asp:Label>
-            <asp:DropDownList ID="ddlBugPriority" runat="server">
-                <asp:ListItem>Low</asp:ListItem>
-                <asp:ListItem>Medium</asp:ListItem>
-                <asp:ListItem>High</asp:ListItem>
-            </asp:DropDownList>
-            <br />
-            <br />
-            <asp:Label ID="lblBugDiscription" runat="server" Text="Bug Discription: "></asp:Label>
-            <br />
-            <asp:TextBox ID="tbxBugDiscription" runat="server" Height="227px" Width="587px"></asp:TextBox>
-            <br />
-            <br />
+            &nbsp;
             <asp:Button ID="btnSubmitBug" runat="server" Text="Submit Bug" OnClick="btnSubmitBug_Click" />
+            <br /><br />
+            &nbsp;
+            <asp:Button ID="btnLogout" runat="server" Text="Logout" OnClick="btnLogout_Click" />
         </div>
     </form>
 </body>

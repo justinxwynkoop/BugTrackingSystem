@@ -22,67 +22,58 @@ namespace MidtermWebApplication {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lblNewBug control.
+        /// lblSubjectOfBug control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNewBug;
+        protected global::System.Web.UI.WebControls.Label lblSubjectOfBug;
         
         /// <summary>
-        /// lblBugSubject control.
+        /// tbxSubjectOfBug control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBugSubject;
+        protected global::System.Web.UI.WebControls.TextBox tbxSubjectOfBug;
         
         /// <summary>
-        /// tbxBugSubject control.
+        /// lblPriorityOfBug control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxBugSubject;
+        protected global::System.Web.UI.WebControls.Label lblPriorityOfBug;
         
         /// <summary>
-        /// lblBugPriorityLevel control.
+        /// ddlPriorityOfBug control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBugPriorityLevel;
+        protected global::System.Web.UI.WebControls.DropDownList ddlPriorityOfBug;
         
         /// <summary>
-        /// ddlBugPriority control.
+        /// lblDescriptionOfBug control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlBugPriority;
+        protected global::System.Web.UI.WebControls.Label lblDescriptionOfBug;
         
         /// <summary>
-        /// lblBugDiscription control.
+        /// tbxDescriptionOfBug control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBugDiscription;
-        
-        /// <summary>
-        /// tbxBugDiscription control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxBugDiscription;
+        protected global::System.Web.UI.WebControls.TextBox tbxDescriptionOfBug;
         
         /// <summary>
         /// btnSubmitBug control.
@@ -92,5 +83,14 @@ namespace MidtermWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSubmitBug;
+        
+        /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogout;
     }
 }

@@ -22,48 +22,66 @@ namespace MidtermWebApplication {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lblListofBugs control.
+        /// lblBugsToBeFixed control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblListofBugs;
+        protected global::System.Web.UI.WebControls.Label lblBugsToBeFixed;
         
         /// <summary>
-        /// ddlListofBugs control.
+        /// ddlNewBugs control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlListofBugs;
+        protected global::System.Web.UI.WebControls.DropDownList ddlNewBugs;
         
         /// <summary>
-        /// lblAssignBug control.
+        /// lblListOfDevelopers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAssignBug;
+        protected global::System.Web.UI.WebControls.Label lblListOfDevelopers;
         
         /// <summary>
-        /// ddlListofDevelopers control.
+        /// ddlListOfDevelopers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlListofDevelopers;
+        protected global::System.Web.UI.WebControls.DropDownList ddlListOfDevelopers;
         
         /// <summary>
-        /// btnSubmitAssignment control.
+        /// gvBugInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmitAssignment;
+        protected global::System.Web.UI.WebControls.GridView gvBugInfo;
+        
+        /// <summary>
+        /// btnAssign control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAssign;
+        
+        /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogout;
     }
 }
