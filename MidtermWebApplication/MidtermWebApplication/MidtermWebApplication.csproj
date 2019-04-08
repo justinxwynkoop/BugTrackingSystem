@@ -74,6 +74,7 @@
     </Content>
     <Content Include="Developer.aspx" />
     <Content Include="Manager.aspx" />
+    <Content Include="Style.css" />
     <Content Include="Tester.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

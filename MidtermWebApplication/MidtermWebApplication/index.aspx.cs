@@ -74,5 +74,6 @@ namespace MidtermWebApplication
             rdr.Close();
             conn.Close();
         }
+        
     }
 }
